@@ -9,7 +9,8 @@
       "MyProject.DataAccess/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.12",
-          "Microsoft.EntityFrameworkCore.Tools": "10.0.12"
+          "Microsoft.EntityFrameworkCore.Tools": "10.0.12",
+          "MyProject.Entity": "1.0.0"
         },
         "runtime": {
           "MyProject.DataAccess.dll": {}
@@ -954,6 +955,14 @@
             "fileVersion": "9.0.1125.51716"
           }
         }
+      },
+      "MyProject.Entity/1.0.0": {
+        "runtime": {
+          "MyProject.Entity.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1354,6 +1363,11 @@
       "sha512": "sha512-s8yUYuYYu+PAwvBdhLG1KyrGrk9gkYeuPxfAsXsTqqWyepwSyEw8hAaflW4nO98NG52YpYI1am2+9o+79h2RtQ==",
       "path": "system.security.cryptography.protecteddata/9.0.11",
       "hashPath": "system.security.cryptography.protecteddata.9.0.11.nupkg.sha512"
+    },
+    "MyProject.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

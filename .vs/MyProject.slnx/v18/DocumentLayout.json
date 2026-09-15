@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\",
+  "WorkspaceRootPath": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4D0C719-5934-4F51-BB45-6078B8F29213}|MyProject.Business\\MyProject.Business.csproj|c:\\users\\vugarjs\\source\\repos\\myproject\\myproject.business\\services\\implementations\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4D0C719-5934-4F51-BB45-6078B8F29213}|MyProject.Business\\MyProject.Business.csproj|solutionrelative:myproject.business\\services\\implementations\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34B68722-00DB-4799-9870-6A0F477CAA7E}|MyProject.DataAccess\\MyProject.DataAccess.csproj|c:\\users\\vugarjs\\source\\repos\\myproject\\myproject.dataaccess\\context\\departmentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34B68722-00DB-4799-9870-6A0F477CAA7E}|MyProject.DataAccess\\MyProject.DataAccess.csproj|solutionrelative:myproject.dataaccess\\context\\departmentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD8FDC43-714D-38B4-BD91-6F6506373E09}|MyProject.Presentation\\MyProject.Presentation.csproj|c:\\users\\vuqar\\desktop\\v\\tasks\\myproject\\myproject.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD8FDC43-714D-38B4-BD91-6F6506373E09}|MyProject.Presentation\\MyProject.Presentation.csproj|solutionrelative:myproject.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34B68722-00DB-4799-9870-6A0F477CAA7E}|MyProject.DataAccess\\MyProject.DataAccess.csproj|c:\\users\\vugarjs\\source\\repos\\myproject\\myproject.dataaccess\\configuration\\employeeconfigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34B68722-00DB-4799-9870-6A0F477CAA7E}|MyProject.DataAccess\\MyProject.DataAccess.csproj|solutionrelative:myproject.dataaccess\\configuration\\employeeconfigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E9FA808-04B0-D97E-1AAC-3919979420B3}|MyProject.Entity\\MyProject.Entity.csproj|c:\\users\\vuqar\\desktop\\v\\tasks\\myproject\\myproject.entity\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E9FA808-04B0-D97E-1AAC-3919979420B3}|MyProject.Entity\\MyProject.Entity.csproj|solutionrelative:myproject.entity\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34B68722-00DB-4799-9870-6A0F477CAA7E}|MyProject.DataAccess\\MyProject.DataAccess.csproj|c:\\users\\vugarjs\\source\\repos\\myproject\\myproject.dataaccess\\configuration\\departmentconfigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34B68722-00DB-4799-9870-6A0F477CAA7E}|MyProject.DataAccess\\MyProject.DataAccess.csproj|solutionrelative:myproject.dataaccess\\configuration\\departmentconfigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1811FE27-82D2-3465-205D-0E08A7549463}|MyProject.Business\\MyProject.Business.csproj|c:\\users\\vuqar\\desktop\\v\\tasks\\myproject\\myproject.business\\services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1811FE27-82D2-3465-205D-0E08A7549463}|MyProject.Business\\MyProject.Business.csproj|solutionrelative:myproject.business\\services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4D0C719-5934-4F51-BB45-6078B8F29213}|MyProject.Business\\MyProject.Business.csproj|c:\\users\\vugarjs\\source\\repos\\myproject\\myproject.business\\services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4D0C719-5934-4F51-BB45-6078B8F29213}|MyProject.Business\\MyProject.Business.csproj|solutionrelative:myproject.business\\services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1811FE27-82D2-3465-205D-0E08A7549463}|MyProject.Business\\MyProject.Business.csproj|c:\\users\\vuqar\\desktop\\v\\tasks\\myproject\\myproject.business\\services\\implementations\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1811FE27-82D2-3465-205D-0E08A7549463}|MyProject.Business\\MyProject.Business.csproj|solutionrelative:myproject.business\\services\\implementations\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeeConfigration.cs",
-              "DocumentMoniker": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.DataAccess\\Configuration\\EmployeeConfigration.cs",
-              "RelativeDocumentMoniker": "MyProject.DataAccess\\Configuration\\EmployeeConfigration.cs",
-              "ToolTip": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.DataAccess\\Configuration\\EmployeeConfigration.cs",
-              "RelativeToolTip": "MyProject.DataAccess\\Configuration\\EmployeeConfigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T13:42:39.956Z",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAAABQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-09-15T18:29:41.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DepartmentConfigration.cs",
-              "DocumentMoniker": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.DataAccess\\Configuration\\DepartmentConfigration.cs",
-              "RelativeDocumentMoniker": "MyProject.DataAccess\\Configuration\\DepartmentConfigration.cs",
-              "ToolTip": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.DataAccess\\Configuration\\DepartmentConfigration.cs",
-              "RelativeToolTip": "MyProject.DataAccess\\Configuration\\DepartmentConfigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T13:42:38.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "EmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Business\\Services\\Implementations\\EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Business\\Services\\Implementations\\EmployeeService.cs",
               "RelativeDocumentMoniker": "MyProject.Business\\Services\\Implementations\\EmployeeService.cs",
-              "ToolTip": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Business\\Services\\Implementations\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Business\\Services\\Implementations\\EmployeeService.cs",
               "RelativeToolTip": "MyProject.Business\\Services\\Implementations\\EmployeeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T13:39:22.584Z",
+              "WhenOpened": "2026-09-15T18:26:23.421Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DepartmentService.cs",
-              "DocumentMoniker": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Business\\Services\\Implementations\\DepartmentService.cs",
-              "RelativeDocumentMoniker": "MyProject.Business\\Services\\Implementations\\DepartmentService.cs",
-              "ToolTip": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Business\\Services\\Implementations\\DepartmentService.cs",
-              "RelativeToolTip": "MyProject.Business\\Services\\Implementations\\DepartmentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Entity\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "MyProject.Entity\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Entity\\Models\\Employee.cs",
+              "RelativeToolTip": "MyProject.Entity\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T13:39:10.278Z",
+              "WhenOpened": "2026-09-15T18:24:31.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DepartmentContext.cs",
-              "DocumentMoniker": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.DataAccess\\Context\\DepartmentContext.cs",
-              "RelativeDocumentMoniker": "MyProject.DataAccess\\Context\\DepartmentContext.cs",
-              "ToolTip": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.DataAccess\\Context\\DepartmentContext.cs",
-              "RelativeToolTip": "MyProject.DataAccess\\Context\\DepartmentContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "MyProject.Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Presentation\\Program.cs",
+              "RelativeToolTip": "MyProject.Presentation\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwA0BAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T13:23:25.418Z",
+              "WhenOpened": "2026-09-15T18:22:53.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Business\\Services\\Implementations\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "MyProject.Business\\Services\\Implementations\\DepartmentService.cs",
+              "ToolTip": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Business\\Services\\Implementations\\DepartmentService.cs",
+              "RelativeToolTip": "MyProject.Business\\Services\\Implementations\\DepartmentService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T18:22:42.23Z",
               "EditorCaption": ""
             }
           ]

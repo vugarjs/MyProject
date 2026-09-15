@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Business\\MyProject.Business.csproj": {}
+    "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Business\\MyProject.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Business\\MyProject.Business.csproj": {
+    "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Business\\MyProject.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Business\\MyProject.Business.csproj",
+        "projectUniqueName": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Business\\MyProject.Business.csproj",
         "projectName": "MyProject.Business",
-        "projectPath": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Business\\MyProject.Business.csproj",
-        "packagesPath": "C:\\Users\\vugarjs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Business\\obj\\",
+        "projectPath": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Business\\MyProject.Business.csproj",
+        "packagesPath": "C:\\Users\\Vuqar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\vugarjs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vuqar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,11 +33,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj"
+              "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj"
               },
-              "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Entity\\MyProject.Entity.csproj": {
-                "projectPath": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Entity\\MyProject.Entity.csproj"
+              "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Entity\\MyProject.Entity.csproj": {
+                "projectPath": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Entity\\MyProject.Entity.csproj"
               }
             }
           }
@@ -53,12 +52,24 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -75,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -353,20 +364,20 @@
         }
       }
     },
-    "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj": {
+    "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj",
         "projectName": "MyProject.DataAccess",
-        "projectPath": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\vugarjs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.DataAccess\\MyProject.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Vuqar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\vugarjs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vuqar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -375,7 +386,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -383,8 +393,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Entity\\MyProject.Entity.csproj": {
-                "projectPath": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Entity\\MyProject.Entity.csproj"
+              "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Entity\\MyProject.Entity.csproj": {
+                "projectPath": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Entity\\MyProject.Entity.csproj"
               }
             }
           }
@@ -399,7 +409,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
@@ -433,7 +443,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -711,20 +721,20 @@
         }
       }
     },
-    "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Entity\\MyProject.Entity.csproj": {
+    "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Entity\\MyProject.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Entity\\MyProject.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Entity\\MyProject.Entity.csproj",
         "projectName": "MyProject.Entity",
-        "projectPath": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Entity\\MyProject.Entity.csproj",
-        "packagesPath": "C:\\Users\\vugarjs\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Entity\\obj\\",
+        "projectPath": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Entity\\MyProject.Entity.csproj",
+        "packagesPath": "C:\\Users\\Vuqar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\vugarjs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vuqar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -733,7 +743,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -753,7 +762,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
@@ -775,7 +784,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
