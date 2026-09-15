@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D0C719-5934-4F51-BB45-6078B8F29213}|MyProject.Business\\MyProject.Business.csproj|c:\\users\\vugarjs\\source\\repos\\myproject\\myproject.business\\services\\implementations\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D0C719-5934-4F51-BB45-6078B8F29213}|MyProject.Business\\MyProject.Business.csproj|solutionrelative:myproject.business\\services\\implementations\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B68722-00DB-4799-9870-6A0F477CAA7E}|MyProject.DataAccess\\MyProject.DataAccess.csproj|c:\\users\\vugarjs\\source\\repos\\myproject\\myproject.dataaccess\\context\\departmentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B68722-00DB-4799-9870-6A0F477CAA7E}|MyProject.DataAccess\\MyProject.DataAccess.csproj|solutionrelative:myproject.dataaccess\\context\\departmentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B68722-00DB-4799-9870-6A0F477CAA7E}|MyProject.DataAccess\\MyProject.DataAccess.csproj|c:\\users\\vugarjs\\source\\repos\\myproject\\myproject.dataaccess\\configuration\\employeeconfigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B68722-00DB-4799-9870-6A0F477CAA7E}|MyProject.DataAccess\\MyProject.DataAccess.csproj|solutionrelative:myproject.dataaccess\\configuration\\employeeconfigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34B68722-00DB-4799-9870-6A0F477CAA7E}|MyProject.DataAccess\\MyProject.DataAccess.csproj|c:\\users\\vugarjs\\source\\repos\\myproject\\myproject.dataaccess\\configuration\\departmentconfigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34B68722-00DB-4799-9870-6A0F477CAA7E}|MyProject.DataAccess\\MyProject.DataAccess.csproj|solutionrelative:myproject.dataaccess\\configuration\\departmentconfigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4D0C719-5934-4F51-BB45-6078B8F29213}|MyProject.Business\\MyProject.Business.csproj|c:\\users\\vugarjs\\source\\repos\\myproject\\myproject.business\\services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4D0C719-5934-4F51-BB45-6078B8F29213}|MyProject.Business\\MyProject.Business.csproj|solutionrelative:myproject.business\\services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeConfigration.cs",
+              "DocumentMoniker": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.DataAccess\\Configuration\\EmployeeConfigration.cs",
+              "RelativeDocumentMoniker": "MyProject.DataAccess\\Configuration\\EmployeeConfigration.cs",
+              "ToolTip": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.DataAccess\\Configuration\\EmployeeConfigration.cs",
+              "RelativeToolTip": "MyProject.DataAccess\\Configuration\\EmployeeConfigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T13:42:39.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentConfigration.cs",
+              "DocumentMoniker": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.DataAccess\\Configuration\\DepartmentConfigration.cs",
+              "RelativeDocumentMoniker": "MyProject.DataAccess\\Configuration\\DepartmentConfigration.cs",
+              "ToolTip": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.DataAccess\\Configuration\\DepartmentConfigration.cs",
+              "RelativeToolTip": "MyProject.DataAccess\\Configuration\\DepartmentConfigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T13:42:38.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Business\\Services\\Implementations\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "MyProject.Business\\Services\\Implementations\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Business\\Services\\Implementations\\EmployeeService.cs",
+              "RelativeToolTip": "MyProject.Business\\Services\\Implementations\\EmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T13:39:22.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Business\\Services\\Implementations\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "MyProject.Business\\Services\\Implementations\\DepartmentService.cs",
+              "ToolTip": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.Business\\Services\\Implementations\\DepartmentService.cs",
+              "RelativeToolTip": "MyProject.Business\\Services\\Implementations\\DepartmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T13:39:10.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DepartmentContext.cs",
+              "DocumentMoniker": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.DataAccess\\Context\\DepartmentContext.cs",
+              "RelativeDocumentMoniker": "MyProject.DataAccess\\Context\\DepartmentContext.cs",
+              "ToolTip": "C:\\Users\\vugarjs\\source\\repos\\MyProject\\MyProject.DataAccess\\Context\\DepartmentContext.cs",
+              "RelativeToolTip": "MyProject.DataAccess\\Context\\DepartmentContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T13:23:25.418Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
