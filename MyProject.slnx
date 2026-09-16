@@ -1,8 +1,8 @@
 <Solution>
   <Folder Name="/src/">
-    <Project Path="MyProject.Business/MyProject.Business.csproj" />
-    <Project Path="MyProject.DataAccess/MyProject.DataAccess.csproj" />
-    <Project Path="MyProject.Entity/MyProject.Entity.csproj" />
-    <Project Path="MyProject.Presentation/MyProject.Presentation.csproj" />
+    <Project Path="src/MyProject.Business/MyProject.Business.csproj" />
+    <Project Path="src/MyProject.DataAccess/MyProject.DataAccess.csproj" />
+    <Project Path="src/MyProject.Entity/MyProject.Entity.csproj" />
+    <Project Path="src/MyProject.Presentation/MyProject.Presentation.csproj" />
   </Folder>
 </Solution>

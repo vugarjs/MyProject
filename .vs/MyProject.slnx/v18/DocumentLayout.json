@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{FF526412-01EA-AD97-A2BF-99770608BE48}|src\\MyProject.Presentation\\MyProject.Presentation.csproj|c:\\users\\vuqar\\desktop\\v\\tasks\\myproject\\src\\myproject.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF526412-01EA-AD97-A2BF-99770608BE48}|src\\MyProject.Presentation\\MyProject.Presentation.csproj|solutionrelative:src\\myproject.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD8FDC43-714D-38B4-BD91-6F6506373E09}|MyProject.Presentation\\MyProject.Presentation.csproj|c:\\users\\vuqar\\desktop\\v\\tasks\\myproject\\myproject.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD8FDC43-714D-38B4-BD91-6F6506373E09}|MyProject.Presentation\\MyProject.Presentation.csproj|solutionrelative:myproject.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E9FA808-04B0-D97E-1AAC-3919979420B3}|MyProject.Entity\\MyProject.Entity.csproj|c:\\users\\vuqar\\desktop\\v\\tasks\\myproject\\myproject.entity\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E9FA808-04B0-D97E-1AAC-3919979420B3}|MyProject.Entity\\MyProject.Entity.csproj|solutionrelative:myproject.entity\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1811FE27-82D2-3465-205D-0E08A7549463}|MyProject.Business\\MyProject.Business.csproj|c:\\users\\vuqar\\desktop\\v\\tasks\\myproject\\myproject.business\\services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1811FE27-82D2-3465-205D-0E08A7549463}|MyProject.Business\\MyProject.Business.csproj|solutionrelative:myproject.business\\services\\implementations\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1811FE27-82D2-3465-205D-0E08A7549463}|MyProject.Business\\MyProject.Business.csproj|c:\\users\\vuqar\\desktop\\v\\tasks\\myproject\\myproject.business\\services\\implementations\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1811FE27-82D2-3465-205D-0E08A7549463}|MyProject.Business\\MyProject.Business.csproj|solutionrelative:myproject.business\\services\\implementations\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FF526412-01EA-AD97-A2BF-99770608BE48}|src\\MyProject.Presentation\\MyProject.Presentation.csproj|c:\\users\\vuqar\\desktop\\v\\tasks\\myproject\\src\\myproject.presentation\\myproject.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FF526412-01EA-AD97-A2BF-99770608BE48}|src\\MyProject.Presentation\\MyProject.Presentation.csproj|solutionrelative:src\\myproject.presentation\\myproject.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\README.md",
-              "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAP8AAAAAAAAAAAAAABQBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-09-15T18:29:41.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Business\\Services\\Implementations\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "MyProject.Business\\Services\\Implementations\\EmployeeService.cs",
-              "ToolTip": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Business\\Services\\Implementations\\EmployeeService.cs",
-              "RelativeToolTip": "MyProject.Business\\Services\\Implementations\\EmployeeService.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDUAAAAYAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\src\\MyProject.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "src\\MyProject.Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\src\\MyProject.Presentation\\Program.cs",
+              "RelativeToolTip": "src\\MyProject.Presentation\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T18:26:23.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Entity\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "MyProject.Entity\\Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Entity\\Models\\Employee.cs",
-              "RelativeToolTip": "MyProject.Entity\\Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T18:24:31.205Z",
+              "WhenOpened": "2026-09-16T09:10:40.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Presentation\\Program.cs",
-              "RelativeDocumentMoniker": "MyProject.Presentation\\Program.cs",
-              "ToolTip": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Presentation\\Program.cs",
-              "RelativeToolTip": "MyProject.Presentation\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwA0BAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T18:22:53.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DepartmentService.cs",
-              "DocumentMoniker": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Business\\Services\\Implementations\\DepartmentService.cs",
-              "RelativeDocumentMoniker": "MyProject.Business\\Services\\Implementations\\DepartmentService.cs",
-              "ToolTip": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\MyProject.Business\\Services\\Implementations\\DepartmentService.cs",
-              "RelativeToolTip": "MyProject.Business\\Services\\Implementations\\DepartmentService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T18:22:42.23Z",
+              "Title": "MyProject.Presentation",
+              "DocumentMoniker": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\src\\MyProject.Presentation\\MyProject.Presentation.csproj",
+              "RelativeDocumentMoniker": "src\\MyProject.Presentation\\MyProject.Presentation.csproj",
+              "ToolTip": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\MyProject\\src\\MyProject.Presentation\\MyProject.Presentation.csproj",
+              "RelativeToolTip": "src\\MyProject.Presentation\\MyProject.Presentation.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-16T09:10:38.603Z",
               "EditorCaption": ""
             }
           ]
