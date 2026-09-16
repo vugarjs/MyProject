@@ -1,8 +1,13 @@
-﻿using MyProject.Business.Services.Implementations;
+﻿using Microsoft.Extensions.DependencyInjection;
+using MyProject.Business.Services.Implementations;
 using MyProject.Business.Services.Interfaces;
 using MyProject.DataAccess.Context;
+using MyProject.DataAccess.Repositories.Implementations;
+using MyProject.DataAccess.Repositories.Interfaces;
 using MyProject.Entity.Models;
 using System.Text;
+
+
 
 namespace MyProject.Presentation
 {
@@ -10,11 +15,32 @@ namespace MyProject.Presentation
     {
         static async Task Main(string[] args)
         {
+
+            var services = new ServiceCollection(); // Here we are creating a new instance of ServiceCollection, which is a container for registering services and their dependencies.
+
+            services.AddDbContext<DepartmentContext>(); // Registering the DepartmentContext with the service collection. This allows us to use dependency injection to get an instance of DepartmentContext wherever we need it.
+            services.AddScoped<IDepartmentService, DepartmentService>();
+            services.AddScoped<IEmployeeService, EmployeeService>();
+
+            var serviceProvider = services.BuildServiceProvider(); // Menyular ucun!
+
+            // 3. Servislərin çağırılması
+            var departmentService = serviceProvider.GetRequiredService<IDepartmentService>(); // Menyularin icinde servislere erishmek ucun serviceProvider-dan istifade edirik. Bu, IDepartmentService tipində bir servis nümunəsini alır və onu departmentService dəyişəninə təyin edir.
+            var employeeService = serviceProvider.GetRequiredService<IEmployeeService>();
+
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+            services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+
+            services.AddScoped<IDepartmentService, DepartmentService>();
+            services.AddScoped<IEmployeeService, EmployeeService>();
+
+            var DepartmentRepo = serviceProvider.GetRequiredService<DepartmentRepository>();
+
+
+
             Console.OutputEncoding = Encoding.UTF8;
             Console.InputEncoding = Encoding.UTF8;
-
-            IDepartmentService departmentService = new DepartmentService(new DepartmentContext());
-            IEmployeeService employeeService = new EmployeeService(new DepartmentContext());
 
             while (true)
             {
@@ -84,7 +110,7 @@ namespace MyProject.Presentation
                                 Description = description
                             };
 
-                            await departmentService.CreateAsync(newDept);
+                            await departmentService.AddAsync(newDept);
                             Console.WriteLine("Departament uğurla əlavə edildi!");
                             break;
 
@@ -98,7 +124,7 @@ namespace MyProject.Presentation
                                     Console.Write("Yeni ad: ");
                                     dept.Name = Console.ReadLine()!;
 
-                                    await departmentService.UpdateAsync(dept);
+                                    departmentService.Update(dept);
                                     Console.WriteLine("Departament uğurla yeniləndi!");
                                 }
                                 else Console.WriteLine("Bu ID-də departament tapılmadı.");
@@ -110,8 +136,8 @@ namespace MyProject.Presentation
                             Console.Write("Silinəcək Departamentin ID-si: ");
                             if (int.TryParse(Console.ReadLine(), out int deleteId))
                             {
-                                bool isDeleted = await departmentService.DeleteAsync(deleteId);
-                                Console.WriteLine(isDeleted ? "Departament silindi!" : "Departament tapılmadı.");
+                                departmentService.Remove(deleteId);
+                                Console.WriteLine("Departament silindi!");
                             }
                             else Console.WriteLine("Düzgün rəqəm daxil edin.");
                             break;
@@ -140,12 +166,9 @@ namespace MyProject.Presentation
                             Console.Write("Axtarılan Ad: ");
                             string searchName = Console.ReadLine()!;
                             var foundDepts = await departmentService.GetByNameAsync(searchName);
-                            if (foundDepts.Any())
+                            if (foundDepts != null)
                             {
-                                foreach (var d in foundDepts)
-                                {
-                                    Console.WriteLine($"ID: {d.Id} | Ad: {d.Name}");
-                                }
+                                Console.WriteLine($"ID: {foundDepts.Id} | Ad: {foundDepts.Name}");
                             }
                             else Console.WriteLine("Bu ada uyğun departament tapılmadı.");
                             break;
@@ -202,7 +225,7 @@ namespace MyProject.Presentation
                             {
                                 Name = name,
                                 Email = email,
-                                 DepartmentId = deptId 
+                                DepartmentId = deptId
                             };
                             await employeeService.CreateAsync(newEmployee);
                             Console.WriteLine("İşçi uğurla əlavə edildi!");
@@ -232,8 +255,8 @@ namespace MyProject.Presentation
                             Console.Write("Silinəcək İşçinin ID-si: ");
                             if (int.TryParse(Console.ReadLine(), out int deleteId))
                             {
-                                bool isDeleted = await employeeService.DeleteAsync(deleteId);
-                                Console.WriteLine(isDeleted ? "İşçi silindi!" : "İşçi tapılmadı.");
+                                employeeService.Delete(deleteId);
+                                Console.WriteLine("İşçi silindi!");
                             }
                             else Console.WriteLine("Düzgün rəqəm daxil edin.");
                             break;
@@ -277,4 +300,3 @@ namespace MyProject.Presentation
         }
     }
 }
-    
