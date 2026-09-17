@@ -18,14 +18,26 @@ public class Repository<T> : IRepository<T> where T : BaseEntity
 
     public async Task AddAsync(T entity) => await _dbSet.AddAsync(entity);
 
-    public async Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>>? predicate = null)
+    public async Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>>? predicate = null, Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null, params Expression<Func<T, object>>[] includes)
     {
-        if (predicate == null)
-        {
-            return await _dbSet.ToListAsync();
-        }
+        IQueryable<T> query = _dbSet;
 
-        return await _dbSet.Where(predicate).ToListAsync();
+        if (predicate != null)
+        {
+            query = _dbSet.Where(predicate);
+        }
+        if (orderBy != null)
+        {
+            query = orderBy(query);
+        }
+        if (includes.Length > 0)
+        {
+            foreach (var include in includes)
+            {
+                query = query.Include(include);
+            }
+        }
+        return await query.ToListAsync();
     }
 
     public Task<T?> GetAsync(Expression<Func<T, bool>> predicate) => _dbSet.FirstOrDefaultAsync(predicate);
