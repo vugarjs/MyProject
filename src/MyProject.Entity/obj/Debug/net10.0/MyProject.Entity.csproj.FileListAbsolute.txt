@@ -23,3 +23,5 @@ C:\Users\Vuqar\Desktop\v\Tasks\MyProject\src\MyProject.Entity\obj\Debug\net10.0\
 C:\Users\Vuqar\Desktop\v\Tasks\MyProject\src\MyProject.Entity\obj\Debug\net10.0\MyProject.Entity.pdb
 C:\Users\Vuqar\Desktop\v\Tasks\MyProject\src\MyProject.Entity\obj\Debug\net10.0\ref\MyProject.Entity.dll
 C:\Users\Vuqar\Desktop\v\Tasks\MyProject\src\MyProject.Entity\obj\Debug\net10.0\MyProjec.543034F1.Up2Date
+C:\Users\Vuqar\Desktop\v\Tasks\MyProject\src\MyProject.Entity\bin\Debug\net10.0\MyProject.Entity.runtimeconfig.json
+C:\Users\Vuqar\Desktop\v\Tasks\MyProject\src\MyProject.Entity\obj\Debug\net10.0\MyProject.Entity.genruntimeconfig.cache

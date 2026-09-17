@@ -12,7 +12,6 @@ public class DepartmentService : IDepartmentService
     {
         _departmentRepository = departmentRepository;
     }
-
     public async Task AddAsync(Department entity)
     {
         if (string.IsNullOrEmpty(entity.Name))
@@ -36,9 +35,9 @@ public class DepartmentService : IDepartmentService
         {
             throw new Exception("Departament tapılmadı!");
         }
-
+        var entity = await _departmentRepository.GetAsync(d => d.Id == id.Value);
         // Remove metodu sinxrondur (await istifadə olunmur)
-        _departmentRepository.Remove(department.Id);
+        _departmentRepository.Remove(entity!);
     }
 
     public async Task<IEnumerable<Department>> GetAllAsync()
@@ -62,11 +61,12 @@ public class DepartmentService : IDepartmentService
         {
             throw new Exception("ID boş ola bilməz!");
         }
+        var entity = _departmentRepository.GetAsync(d => d.Id == id.Value).Result;
 
-        _departmentRepository.Remove(id.Value);
+        _departmentRepository.Remove(entity!);
     }
 
-    public void Update(Department entity)
+    public async Task<Department> UpdateAsync(Department entity)
     {
         if (string.IsNullOrEmpty(entity.Name))
         {
@@ -75,5 +75,6 @@ public class DepartmentService : IDepartmentService
 
         // Update metodu sinxrondur (await istifadə olunmur)
         _departmentRepository.Update(entity);
+        return entity;
     }
 }

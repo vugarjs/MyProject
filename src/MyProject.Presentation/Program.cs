@@ -16,27 +16,22 @@ namespace MyProject.Presentation
         static async Task Main(string[] args)
         {
 
-            var services = new ServiceCollection(); // Here we are creating a new instance of ServiceCollection, which is a container for registering services and their dependencies.
+            var services = new ServiceCollection();
+            services.AddDbContext<DepartmentContext>();
 
-            services.AddDbContext<DepartmentContext>(); // Registering the DepartmentContext with the service collection. This allows us to use dependency injection to get an instance of DepartmentContext wherever we need it.
-            services.AddScoped<IDepartmentService, DepartmentService>();
-            services.AddScoped<IEmployeeService, EmployeeService>();
-
-            var serviceProvider = services.BuildServiceProvider(); // Menyular ucun!
-
-            // 3. Servislərin çağırılması
-            var departmentService = serviceProvider.GetRequiredService<IDepartmentService>(); // Menyularin icinde servislere erishmek ucun serviceProvider-dan istifade edirik. Bu, IDepartmentService tipində bir servis nümunəsini alır və onu departmentService dəyişəninə təyin edir.
-            var employeeService = serviceProvider.GetRequiredService<IEmployeeService>();
-
-            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            // Department qeydiyyatları (əvvəl yazdıqlarınız)
             services.AddScoped<IDepartmentRepository, DepartmentRepository>();
-            services.AddScoped<IEmployeeRepository, EmployeeRepository>();
-
             services.AddScoped<IDepartmentService, DepartmentService>();
+
+            // Employee qeydiyyatları (BUNLARI ƏLAVƏ EDİN)
+            services.AddScoped<IEmployeeRepository, EmployeeRepository>();
             services.AddScoped<IEmployeeService, EmployeeService>();
 
-            var DepartmentRepo = serviceProvider.GetRequiredService<DepartmentRepository>();
+            var provider = services.BuildServiceProvider();
 
+            // 32-ci sətir: İndi EmployeeService xətasız çağırılacaq
+            var departmentService = provider.GetRequiredService<IDepartmentService>();
+            var employeeService = provider.GetRequiredService<IEmployeeService>();
 
 
             Console.OutputEncoding = Encoding.UTF8;
@@ -124,7 +119,7 @@ namespace MyProject.Presentation
                                     Console.Write("Yeni ad: ");
                                     dept.Name = Console.ReadLine()!;
 
-                                    departmentService.Update(dept);
+                                    await departmentService.UpdateAsync(dept);
                                     Console.WriteLine("Departament uğurla yeniləndi!");
                                 }
                                 else Console.WriteLine("Bu ID-də departament tapılmadı.");
@@ -136,7 +131,7 @@ namespace MyProject.Presentation
                             Console.Write("Silinəcək Departamentin ID-si: ");
                             if (int.TryParse(Console.ReadLine(), out int deleteId))
                             {
-                                departmentService.Remove(deleteId);
+                                await departmentService.DeleteAsync(deleteId);
                                 Console.WriteLine("Departament silindi!");
                             }
                             else Console.WriteLine("Düzgün rəqəm daxil edin.");
@@ -255,7 +250,7 @@ namespace MyProject.Presentation
                             Console.Write("Silinəcək İşçinin ID-si: ");
                             if (int.TryParse(Console.ReadLine(), out int deleteId))
                             {
-                                employeeService.Delete(deleteId);
+                                await employeeService.DeleteAsync(deleteId);
                                 Console.WriteLine("İşçi silindi!");
                             }
                             else Console.WriteLine("Düzgün rəqəm daxil edin.");

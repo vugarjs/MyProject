@@ -8,4 +8,6 @@ public class Employee : AuditEntity
     public string Email { get; set; } = null!;
     public int DepartmentId { get; set; } // Foreign key to the Department entity
     public Department Department { get; set; } = null!;
+
+    public List<EmployeeProject>? EmployeeProjects { get; set; }
 }

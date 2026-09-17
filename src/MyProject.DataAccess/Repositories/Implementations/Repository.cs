@@ -18,7 +18,7 @@ public class Repository<T> : IRepository<T> where T : BaseEntity
 
     public async Task AddAsync(T entity) => await _dbSet.AddAsync(entity);
 
-    public async Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>>? predicate = null, Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null, params Expression<Func<T, object>>[] includes)
+    public async Task<List<T>> GetAllAsync(Expression<Func<T, bool>>? predicate = null, Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null, params Expression<Func<T, object>>[] includes)
     {
         IQueryable<T> query = _dbSet;
 
@@ -42,7 +42,26 @@ public class Repository<T> : IRepository<T> where T : BaseEntity
 
     public Task<T?> GetAsync(Expression<Func<T, bool>> predicate) => _dbSet.FirstOrDefaultAsync(predicate);
 
-    public void Remove(int id) => _dbSet.Remove(_dbSet.Find(id)!);
+    public void Remove(T entity) => _dbSet.Remove(entity);
 
     public void Update(T entity) => _dbSet.Update(entity);
+
+    public async Task<bool> AnyAsync(Expression<Func<T, bool>>? predicate = null)
+    {
+        if (predicate != null)
+        {
+            return await _dbSet.AnyAsync(predicate);
+        }
+        return await _dbSet.AnyAsync();
+    }
+    public async Task SaveChangesAsync() => await _context.SaveChangesAsync();
+
+    public async Task<T?> FindAsync(Expression<Func<T, bool>>? predicate)
+    {
+        if (predicate != null)
+        {
+            return await _dbSet.FirstOrDefaultAsync(predicate);
+        }
+        return await _dbSet.FirstOrDefaultAsync();
+    }
 }
